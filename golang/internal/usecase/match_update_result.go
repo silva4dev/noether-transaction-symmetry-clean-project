@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devfullcycle/imersao10-consolidacao/internal/domain/entity"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/domain/repository"
-	"github.com/devfullcycle/imersao10-consolidacao/pkg/uow"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/entity"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/repository"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/pkg/uow"
 )
 
 type MatchUpdateResultInput struct {

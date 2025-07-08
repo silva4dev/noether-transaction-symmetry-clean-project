@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/devfullcycle/imersao10-consolidacao/internal/domain/entity"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/db"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/entity"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/db"
 )
 
 type PlayerRepository struct {

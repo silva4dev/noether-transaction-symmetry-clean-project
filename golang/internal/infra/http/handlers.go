@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"net/http"
 
-	irepository "github.com/devfullcycle/imersao10-consolidacao/internal/domain/repository"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/db"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/presenter"
 	"github.com/go-chi/chi/v5"
+	irepository "github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/repository"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/db"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/presenter"
 )
 
 func ListPlayersHandler(ctx context.Context, queries db.Queries) http.HandlerFunc {

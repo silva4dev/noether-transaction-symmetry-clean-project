@@ -1,6 +1,6 @@
 package presenter
 
-import "github.com/devfullcycle/imersao10-consolidacao/internal/domain/entity"
+import "github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/entity"
 
 type Matches []Match
 

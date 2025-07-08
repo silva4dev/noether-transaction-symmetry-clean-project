@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/usecase"
-	"github.com/devfullcycle/imersao10-consolidacao/pkg/uow"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/usecase"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/pkg/uow"
 )
 
 type ProcessNewPlayer struct{}

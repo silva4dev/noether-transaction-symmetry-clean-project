@@ -1,4 +1,4 @@
-module github.com/devfullcycle/imersao10-consolidacao
+module github.com/silva4dev/noether-transaction-symmetry-clean-project
 
 go 1.19
 

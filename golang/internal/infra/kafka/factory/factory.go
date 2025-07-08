@@ -1,6 +1,6 @@
 package factory
 
-import "github.com/devfullcycle/imersao10-consolidacao/internal/infra/kafka/event"
+import "github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/kafka/event"
 
 func CreateProcessMessageStrategy(topic string) event.ProcessEventStrategy {
 	switch topic {

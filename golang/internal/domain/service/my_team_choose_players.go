@@ -3,7 +3,7 @@ package service
 import (
 	"errors"
 
-	"github.com/devfullcycle/imersao10-consolidacao/internal/domain/entity"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/domain/entity"
 )
 
 var errNotEnoughMoney = errors.New("not enough money")

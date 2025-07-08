@@ -3,7 +3,7 @@ package repository
 import (
 	"errors"
 
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/db"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/db"
 )
 
 var ErrQueriesNotSet = errors.New("queries not set")

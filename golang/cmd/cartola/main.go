@@ -6,13 +6,13 @@ import (
 	"net/http"
 
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/db"
-	httphandler "github.com/devfullcycle/imersao10-consolidacao/internal/infra/http"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/kafka/consumer"
-	"github.com/devfullcycle/imersao10-consolidacao/internal/infra/repository"
-	"github.com/devfullcycle/imersao10-consolidacao/pkg/uow"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/db"
+	httphandler "github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/http"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/kafka/consumer"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/internal/infra/repository"
+	"github.com/silva4dev/noether-transaction-symmetry-clean-project/pkg/uow"
 
 	_ "github.com/go-sql-driver/mysql"
 )
